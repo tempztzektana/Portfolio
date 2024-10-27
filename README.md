@@ -1,4 +1,4 @@
-[English](README.md) | [Czech](README_CZ.md) 
+[English](README_EN.md) | [Czech](README_CZ.md) 
 
 
 # 🌟 Filip Vašíček - GitHub Portfolio
