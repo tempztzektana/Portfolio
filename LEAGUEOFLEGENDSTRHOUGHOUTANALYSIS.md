@@ -26,7 +26,7 @@ Using Python and installing 2 libraries [pandas](https://pandas.pydata.org/) and
    pip install pandas sqlalchemy psycopg2
    ```
 After the instalation I've looked into the json file using VSC to see how the data is interpreted.
-Example from data
+   Example from data
    ```python
    pip install pandas sqlalchemy psycopg2
    ```
