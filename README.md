@@ -17,7 +17,7 @@ Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT 
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C# Icon](assets/csharp-icon.png)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 
 *Add more technologies as badges with links to each technology*
 
