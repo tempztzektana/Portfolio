@@ -16,10 +16,17 @@ Welcome to my first project! This project focuses on building a program to searc
 2. Everything should be organized for easy to look through, though I'll add photos here so you don't need to worry.
 
 ## The start of the project
-At first I needed to gather the data, for that I used the raw data collection from the game API that user Mitchell J uploaded on site [kaggle](https://www.kaggle.com/datasets/datasnaek/league-of-legends?resource=download). The data is 7 years old and is mostly in json files that I need to first convert. 
+At first I needed to gather the data, for that I used the raw data collection from the game API that user [Mitchell J](https://www.kaggle.com/datasnaek) uploaded on site [kaggle](https://www.kaggle.com/datasets/datasnaek/league-of-legends?resource=download). The data is 7 years old and is mostly in json files that I need to first convert. 
 
 ## Converting JSON files to add the to my SQL database
-Using Python and installing 2 libraries [pandas](https://pandas.pydata.org/) and [SQLAlchemy](https://www.sqlalchemy.org/) (because the pandas library works only with SQLite and I'm working with PostgreSQL):
-```bash
-   git clone https://github.com/tempztzektana/portfolio
+Using Python and installing 2 libraries [pandas](https://pandas.pydata.org/) and [SQLAlchemy](https://www.sqlalchemy.org/) (because the pandas library works only with SQLite and I'm working with PostgreSQL, for SQLAlchemy I needed to install the psycopg2-binary library that doesn't work with later versions than 3.11):
 
+1. Installing dependecies
+   ```bash
+   pip install pandas sqlalchemy psycopg2
+   ```
+After the instalation I've looked into the json file using VSC to see how the data is interpreted.
+Example from data
+   ```python
+   pip install pandas sqlalchemy psycopg2
+   ```
