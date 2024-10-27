@@ -1,7 +1,7 @@
 
 # 🌟 Filip Vašíček - GitHub Portfolio
 
-Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT with passion for databases and analysis and mainly challenges. I've been learning by solving problem in Codewars, for the time being Rank 6 of Python, SQL, and rank 7 C#. Solved around 150+ problems! Welcome to my GitHub profile, where I showcase my projects and skills.
+Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT with passion for databases and analysis and mainly challenges. I've been learning by watching online courses and solving problem in [Codewars](https://www.codewars.com/users/tempztzektana), for the time being Rank 6 of Python, SQL, and rank 7 C#. Solved around 150+ problems! Welcome to my GitHub profile, where I showcase my projects and skills.
 
 ---
 
