@@ -19,4 +19,7 @@ Welcome to my first project! This project focuses on building a program to searc
 At first I needed to gather the data, for that I used the raw data collection from the game API that user Mitchell J uploaded on site [kaggle](https://www.kaggle.com/datasets/datasnaek/league-of-legends?resource=download). The data is 7 years old and is mostly in json files that I need to first convert. 
 
 ## Converting JSON files to add the to my SQL database
-Using Python and installing 2 libraries [pandas](https://pandas.pydata.org/) and [SQLAlchemy](https://www.sqlalchemy.org/) (because the pandas library works only with SQLite and I'm working with PostgreSQL).
+Using Python and installing 2 libraries [pandas](https://pandas.pydata.org/) and [SQLAlchemy](https://www.sqlalchemy.org/) (because the pandas library works only with SQLite and I'm working with PostgreSQL):
+```bash
+   git clone https://github.com/tempztzektana/portfolio
+
