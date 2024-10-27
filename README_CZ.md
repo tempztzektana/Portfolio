@@ -39,7 +39,8 @@ Ahoj! Jmenuji se Filip Vašíček, jsem pouhý student s chudou praxí ale s tou
 
 ## 📈 Aktivita
 
-- 🚧 Nyní pracuji na analýze mé oblíbené hry LEAGUE OF LEGENDS a jejímž projektu LEAGUE OF LEGENDS DŮKLADNÉ ANALÝZI.
+- 🏃🏻‍♂️ Nyní pracuji na analýze mé oblíbené hry LEAGUE OF LEGENDS a jejímž projektu LEAGUE OF LEGENDS DŮKLADNÉ ANALÝZI.
+- 🚧 Dělám na text-based RPG Python hře která se odehrává v Temném Fantasy světě.
 - 🔭 Hledám práci na pozicích, Vývojáře databází, Analytika, Data scientist, vše v Juniorské úrovni.
 
 ---
