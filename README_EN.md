@@ -24,7 +24,7 @@ Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT 
 
 ## 📁 Featured Projects
 
-### 1. [LEAGUE OF LEGENDS THROUGHOUT ANALYSIS](https://github.com/tempszektana/project-name)
+### 1. [LEAGUE OF LEGENDS THROUGHOUT ANALYSIS](LEAGUEOFLEGENDSTRHOUGHOUTANALYSIS.md)
 **Description:** Searching for the best and most efficient player on the EUW server of game called League Of Legends, and trying to make a great presentation of what he does that others do not to accomplish his achievement. Not only that but making some smaller side projects of this dataset to make the ability to see your own achievement and stuff you can improve on. Using only Python with SQL as my tools for now.
 - **Tech Stack:** Python, SQL, Power BI
 - **Key Features:** Ability to see best player on the server. Seeing your own achivements compared to the best of the server. Seeing what you can do to improve, solely by data and analysis.
