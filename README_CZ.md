@@ -52,3 +52,6 @@ Budu rád za Vaší odezvu, případně nabídku práce:
 ---
 
 Děkuji za Vaši návštěvu mého GitHub Portfólia! Vždycky budu otevřený novým věcem a ideám, proto mě kontaktujte. 😊
+
+## Na hlavní README
+[README](README.md)
