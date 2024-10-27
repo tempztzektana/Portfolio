@@ -27,6 +27,5 @@ Using Python and installing 2 libraries [pandas](https://pandas.pydata.org/) and
    ```
 After the instalation I've looked into the json file using VSC to see how the data is interpreted.
    Example from data
-   ```python
-   pip install pandas sqlalchemy psycopg2
-   ```
+  ![image](https://github.com/user-attachments/assets/243d631e-9876-41b6-9dec-6d15a4c9d612)
+
