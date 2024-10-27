@@ -19,8 +19,6 @@ Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT 
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 
-*Add more technologies as badges with links to each technology*
-
 ---
 
 ## 📁 Featured Projects
@@ -35,33 +33,16 @@ Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT 
 
 ## 📈 Activity
 
-- 🔭 I’m currently working on [Current Project].
-- 👯 I’m looking to collaborate on [Project/Area of Interest].
-- 🤔 I’m looking for help with [Project/Technology].
-- 💬 Ask me about [Skills/Areas of Expertise].
+- 🔭 I’m currently working on Analysis of matches in my favorite game League Of Legends.
 
 ---
 
 ## 📫 How to Reach Me
 
 Feel free to connect with me on:
-- **[Email](mailto:your.email@example.com)**
-- **[LinkedIn](https://www.linkedin.com/in/yourusername)**
+- **[Email](mailto:filip25vas@gmail.com)**
 
 ---
 
-## 🎖 Certifications & Achievements
-- **[Certification Name]** - [Organization] - [Date]
-- **[Another Certification]** - [Organization] - [Date]
-
----
-
-## 🤝 Open-Source Contributions
-
-1. **[Contribution Name]** - [Description or Link to Project]
-2. **[Another Contribution]** - [Description or Link to Project]
-
----
-
-Thanks for visiting my profile! I'm always open to new ideas and collaborations, so feel free to reach out. 😊
+Thanks for visiting my profile! I'm always open to new ideas, so feel free to reach out. 😊
 
