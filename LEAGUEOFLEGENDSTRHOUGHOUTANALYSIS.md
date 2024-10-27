@@ -38,7 +38,7 @@ With the way the content is interpreted noted I started researching in the panda
          import json
             
          # The path to the JSON file
-         json_file_path = r"\GitHub\Portfolio\LEAGUE OF LEGENDS THROUGHOUT ANALYSIS\Data\champion_info.json"
+         json_file_path = "\GitHub\Portfolio\LEAGUE OF LEGENDS THROUGHOUT ANALYSIS\Data\champion_info.json"
          
          # Loading data from the JSON file
          with open(json_file_path, 'r') as file:
@@ -65,5 +65,7 @@ With the way the content is interpreted noted I started researching in the panda
          # Saving it into the database
          final_df.to_sql('champion_info', engine, if_exists='replace', index=False)
 
-With that done and completed I've achieved a python programme conversion of JSON files into PostgreSQL database system, PostgreSQL has option to add JSON file datatypes but that would be easier and I would'nt need to use python at all with that and I was looking forward to use python, in addition you can see my rough skills with python.
+## Conclusion of the conversion
+With that done and completed I've achieved a python program conversion of JSON files into PostgreSQL database system, PostgreSQL has option to add JSON file datatypes but that would be easier and I would'nt need to use python at all with that and I was looking forward to use python, in addition you can see my rough skills with python.
+With simple SQL query I've checked if everything is succesfully connected into the
 
