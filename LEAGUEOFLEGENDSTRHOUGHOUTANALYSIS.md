@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-Welcome to my first project! This project focuses on building a program to search and see the best player on the server of EUW in the game of League Of Legends, to not only watch his achievemnts but to compare it with yours, in this README file I'll show you my thought proccess and upload my data, codes and all.
+Welcome to my first project! This project focuses on building a program to search and see the best player on the server of EUW in the game of League Of Legends, to not only watch his achievements but to compare it with yours, in this README file I'll show you my thought proccess and upload my data, codes and all.
 
 ## Technologies Used
 - Python
