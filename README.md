@@ -1,5 +1,3 @@
-[English](README.md) | [Czech](README_CZ.md) |
-
 
 # 🌟 Filip Vašíček - GitHub Portfolio
 
