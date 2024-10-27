@@ -29,7 +29,7 @@ Ahoj! Jmenuji se Filip Vašíček, jsem pouhý student s chudou praxí ale s tou
 
 ## 📁 Vybrané projekty
 
-### 1. [LEAGUE OF LEGENDS DŮKLADNÁ ANALÝZA(WIP)](LEAGUEOFLEGENDSTRHOUGHOUTANALYSIS.md)
+### 1. [LEAGUE OF LEGENDS DŮKLADNÁ ANALÝZA(Čeština WIP)](LEAGUEOFLEGENDSTRHOUGHOUTANALYSIS.md)
 **Popis:** Hledání nejlepšího a nejvíce efektivního hráče na EUW serveru hry League Of Legends a snaha vytvořit dobrou prezentaci toho co dělá tak aby i ostatní dosáhly jeho úspěchu. Ne jen to ale i malé vedlejší projekty tohoto datasetu pro zobrazení vlastních výsledků a věcí které můžeš zlepšit. Použítím pouze Pythonu se SQL zatím.
 - **Použité technologie:** Python, SQL, Power BI
 - **Klíčové funkce:** Možnost vidění výsledků nejlepšího hráře. Vidění svých výsledků s porovnáním nejlepšího. Vidět co lze zlepšit, pouze přes data a analýzu.
