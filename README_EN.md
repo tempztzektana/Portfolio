@@ -35,7 +35,7 @@ Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT 
 ## 📈 Activity
 
 - 🏃🏻‍♂️ I’m currently working on Analysis of matches in my favorite game League Of Legends.
-- 🚧 Working on a text-based RPG Python game that is set in Dark Fantasy world.
+- 🚧 Developing on a text-based RPG Python game that is set in Dark Fantasy world.
 - 🔭 In the meantime looking for a job in the position of Database Developer, Data analyst, Data scientist on the level of Junior
 
 ---
