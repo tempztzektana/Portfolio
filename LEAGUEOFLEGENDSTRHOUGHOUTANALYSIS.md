@@ -151,9 +151,139 @@ def export_json_to_database_champion_info():
     df.to_sql(tablename, engine, if_exists='replace', index=False)
 export_json_to_database_champion_info()
 ```
-After this accomplishment I'm able to compile this python file.
+
+After this accomplishment I'm able to compile this python file. Tinkering a while and I've finally made the raw code for the whole application using 3 files.
+* main_conversion_file.py
+```python
+   #Name of the function
+def main():
+    print("Welcome to JSON to SQL exporter!")
+    print("""
+Press 1 to continue
+Press 2 to see the credits
+Press q to quit
+          """)
+    inputmain = input()         #User input
+    if inputmain == str(1):     #Go to the main file
+        import databaseconnect
+        databaseconnect.dataconnect()
+    elif inputmain == str(2):   #See the credits
+        print("This program was created by Filip Vašíček as his side project for the main project of his league of legends analysis.")
+        print("Press enter to continue.\n")
+        inputcredit = input()
+
+        if inputcredit == "":
+            main()
+        else:
+            print("I've said enter!\n")
+            main()
+
+    elif inputmain == "q":      #Quit the program
+        exit() 
+    else: 
+        print("Can't read the input!\n")
+        main()
+#call the function
+main()
+```
+
+* databaseconnect.py
+```python
+#Basic dependencies
+from sqlalchemy import create_engine
+from sqlalchemy.exc import SQLAlchemyError
 
 
+
+#Connect to the URI database
+def dataconnect():
+    db_uri = input("Write out your database URI. (Example: postgresql://username:password@host:port/database_name for PostgreSQL): \n")
+    try:
+        
+# Create the engine
+        engine = create_engine(db_uri)
+        
+# Try to connect to the database
+        with engine.connect() as connection:
+            print("\nConnection successful!\n")
+            import functions_for_conversion
+            functions_for_conversion.export_json_to_database_champion_info(engine)
+            return engine 
+            
+    except SQLAlchemyError as e:
+# Handle the error and print an appropriate message
+        print(f"\nConnection failed: {e}\n")
+```
+
+* functions_for_conversion.py
+```python
+#Importing the dependency libraries
+import pandas as pd
+import json
+from sqlalchemy.exc import SQLAlchemyError
+
+
+#Function for the export
+def export_json_to_database_champion_info(engine):
+# The path to the JSON file
+    print("Enter the path to the file(press enter to go back): ")
+    path = input()
+    if path == "":
+        print("Returning back.")
+        return
+    else:
+# Loading data from the JSON file
+        try:
+            with open(path, 'r') as file:
+                json_data = json.load(file)
+        except FileNotFoundError:
+            print("Error: The specified file was not found.")
+            return
+        except json.JSONDecodeError:
+            print("Error: the file is not a valid JSON")
+            return
+
+# Conversion of the data to dataframe (pandas)
+    file_data = json_data['data']                               # Extraction of the 'data' contents
+    df = pd.DataFrame.from_dict(file_data, orient='index')      # Conversion to the dataframe
+
+# Print the structure of the dataframe for debugging
+    print("DataFrame columns:", df.columns.tolist())            # Show what's inside the dataframe
+    print("DataFrame head:\n", df.head())                       # Print first few rows
+
+# Addition of the columns 'type' and 'version'
+    df['type'] = json_data['type']
+    df['version'] = json_data['version']
+
+# Renaming the id column with the idname to add the ID primary key in SQL
+    def rename_id():
+        print("What to do you want to rename the ID to: ")
+        idname = input()
+        
+        if 'id' in df.columns:
+            df.rename(columns={'id': idname}, inplace=True)
+        else:
+            print("Warning: 'id' column not found. No renaming performed. Try again")
+            print("DataFrame columns:", df.columns.tolist())    # Show what's inside the dataframe for the renaming
+            print("DataFrame head:\n", df.head())
+            rename_id() #Return back to renaming the ID
+    if df.empty:
+        print("Error: The DataFrame is empty. No data to export.")
+        return
+    rename_id()
+    # Export Dataframe to SQL 
+    try:
+            table_name = input("Set your table name: \n")  # Set your table name here
+            df.to_sql(table_name, con=engine, if_exists='replace', index=False)
+            print(f"Data successfully exported to the '{table_name}' table in the database.")
+    except SQLAlchemyError as e:
+            print(f"Error exporting data to SQL: {e}")
+
+```
+
+After that I've compiled the files into 1 exec file and can finally move onto the data manipulation itself.
+
+## Creating SQL queries.
 
 
 
