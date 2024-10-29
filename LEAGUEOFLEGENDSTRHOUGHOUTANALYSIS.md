@@ -85,9 +85,7 @@ And the output was:
   <img src="https://github.com/user-attachments/assets/62d8005f-a3bb-468c-8b82-f07ac04671a5" alt="Moje obrázek" width="800">
 </div>
 
-It worked! All it took me was 3 hours of learning the code and half an hour of debugging.
-
-Now that is left to do is extracting all the JSON files into the database.
+Now what is left to do is extracting all the JSON files into the database.
 ## Creating customizable program to convert the JSON datatype
 The data has 3 files of JSON datatype, for that I figured out I'll make the code into function and only call which I needed (I need only 2 files since the first was for the test).
 For that I've easily just updated the path and some information of data according to the file and made a main.py file to call both functions together at once.
