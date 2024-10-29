@@ -281,7 +281,7 @@ def export_json_to_database_champion_info(engine):
 
 ```
 
-After that I've compiled the files into 1 exec file and can finally move onto the data manipulation itself. (The code itself will need some tinkering since it is raw and not yet fully optimized, for that I'll need more time but this is the raw version I've come up with and that works.
+After that I've compiled the files into 1 exec file and can finally move onto the data manipulation itself. (The code itself will need some tinkering since it is raw and not yet fully optimized, for that I'll need more time but this is the raw version I've come up with and that works.)
 
 ## Creating SQL queries.
 
