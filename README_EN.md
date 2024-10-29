@@ -8,7 +8,7 @@ Hello! I'm Filip Vašíček, a mere student of VŠPJ that is trying to learn IT 
 ## 📌 About Me
 - **👨‍💻 Profession:** Student (not employed yet)
 - **🌱 Currently Learning:** Python, C#, SQL, Power BI
-- **🚀 Interests:** Basically anything that's challenging, public analysis and problem solving. Doing stuff that is way beyond my skill.
+- **🚀 Interests:** Basically anything that's challenging, public analysis and problem solving. Doing stuff that is way beyond my skill. Playing games and solving problems in [Codewars](https://www.codewars.com/users/tempztzektana).
 - **🔗 LinkedIn:** WIP!
 - **🌐 Portfolio Website:** WIP!
 
