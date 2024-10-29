@@ -153,7 +153,7 @@ def export_json_to_database_champion_info():
     df.to_sql(tablename, engine, if_exists='replace', index=False)
 export_json_to_database_champion_info()
 ```
-After this accomplishment I'm ready to make this a full program to export JSON to SQL whenever I want.
+After this accomplishment I'm able to compile this python file.
 
 
 
