@@ -8,7 +8,7 @@ Ahoj! Jmenuji se Filip Vašíček, jsem pouhý student s chudou praxí ale s tou
 ## 📌 O mně
 - **👨‍💻 Profese:** Student (nezaměstnaný)
 - **🌱 Učím se:** Python, C#, SQL, Power BI
-- **🚀 Záliby:** V podstatě cokoliv co je pro mě výzvou, veřejná analýza a řešení problémů. Dělání projektů který jsou nad mojí mírou zkušeností. Hraní her a řešení problémů v Codewars.
+- **🚀 Záliby:** V podstatě cokoliv co je pro mě výzvou, veřejná analýza a řešení problémů. Dělání projektů který jsou nad mojí mírou zkušeností. Hraní her a řešení problémů v [Codewars](https://www.codewars.com/users/tempztzektana).
 - **🔗 LinkedIn:** WIP!
 - **🌐 Portfolio Website:** WIP!
 
